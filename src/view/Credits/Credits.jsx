@@ -41,7 +41,7 @@ const Credits = () => {
 
   const yarden = {
     name: "Yarden Shalom",
-    gitHub: "",
+    gitHub: "https://github.com/JordanSh/Deadline",
     linkedin: "https://www.linkedin.com/in/yarden-shalom-a85a70197/",
     email: "yardeninho@gmail.com",
     phone: "054-9100290"
@@ -80,7 +80,7 @@ const Credits = () => {
               </Listing>
               <Listing>State Managment using Redux and React Hooks</Listing>
               <Listing>Mobile First, yet fully Responsive Design</Listing>
-              <Listing>Tested with Jest and Written in TypeScript</Listing>
+              <Listing>Tested with Jest</Listing>
             </Features>
           </SiteFeatures>
         </InfoBox>

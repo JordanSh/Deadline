@@ -24,7 +24,6 @@ const Done = () => {
   const dispatchCurrentTab = () => {
     if (inView) {
       dispatch(markDone());
-      console.log("doneview");
     }
   };
 

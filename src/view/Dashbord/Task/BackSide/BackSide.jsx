@@ -10,13 +10,8 @@ import fetchAPI from "../../../../service/services";
 
 import HeaderAreaComponent from "../HeaderAreaComponent";
 
-import { TiArrowLoop } from "react-icons/ti";
 import _ from "lodash";
 import { useDispatch } from "react-redux";
-
-import { ReactComponent as ExclamationSVG } from "../../../../assets/SVG/alert.svg";
-import { ReactComponent as FireSVG } from "../../../../assets/SVG/fire.svg";
-import { ReactComponent as AlertSVG } from "../../../../assets/SVG/warning-sign.svg";
 
 import { updateArraysAction } from "../../../../state/actions/updateArraysAction";
 

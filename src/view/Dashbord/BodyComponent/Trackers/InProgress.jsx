@@ -25,7 +25,6 @@ const InProgress = () => {
   const dispatchCurrentTab = () => {
     if (inView) {
       dispatch(markProgress());
-      console.log("progressview");
     }
   };
 

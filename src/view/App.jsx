@@ -1,4 +1,4 @@
-import React, { useReducer } from "react";
+import React from "react";
 import styled from "styled-components";
 import GlobalStyle from "../style/globalStyle";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";

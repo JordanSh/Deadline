@@ -9,8 +9,6 @@ import fetchAPI from "../../service/services";
 import { getUserAction } from "../../state/actions/getUserAction";
 import { isLoggedAction } from "../../state/actions/isLoggedAction";
 
-import ColorBook from "react-colorbook"
-
 const Login = () => {
   const isLogged = useSelector(state => state.isLoggedReducer);
   const dispatch = useDispatch();

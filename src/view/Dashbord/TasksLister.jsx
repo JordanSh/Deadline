@@ -29,13 +29,10 @@ const TasksLister = ({ arrayToMap }) => {
         switch (a.urgency) {
           case "low":
             return 0;
-            break;
           case "regular":
             return 1;
-            break;
           case "high":
             return 2;
-            break;
           default:
             break;
         }
@@ -45,13 +42,10 @@ const TasksLister = ({ arrayToMap }) => {
         switch (b.urgency) {
           case "low":
             return 0;
-            break;
           case "regular":
             return 1;
-            break;
           case "high":
             return 2;
-            break;
           default:
             break;
         }

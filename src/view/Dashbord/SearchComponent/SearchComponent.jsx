@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import { flexbox } from "../../../style/mixins";
 import * as c from "../../../style/colors";
 import { useDispatch, useSelector } from "react-redux";

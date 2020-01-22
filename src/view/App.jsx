@@ -11,6 +11,9 @@ import SignUp from "../view/SignUp/SignUp.jsx";
 import Dashbord from "../view/Dashbord/Dashboard.jsx";
 import Credits from "../view/Credits/Credits.jsx";
 
+// self made package
+import ColorBook from "react-colorbook"
+
 function App() {
   const isLogged = useSelector(state => state.isLoggedReducer);
 
@@ -25,6 +28,7 @@ function App() {
             <Route path="/dashboard">
               {isLogged ? <Dashbord /> : <Login />}
             </Route>
+            <Route path='/react-colorbook' render={(props) => <ColorBook {...props} colorsImport={c} colorsImportName="c" />} />
           </Switch>
           <GlobalStyle />
         </Wrapper>

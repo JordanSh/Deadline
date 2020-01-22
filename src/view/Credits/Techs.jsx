@@ -12,14 +12,22 @@ import expressJS from "../../assets/images/expressJS.png";
 import netlify from "../../assets/images/netlify.png";
 import javaScripts from "../../assets/images/javaScripts.png";
 import ziet from "../../assets/images/ziet.png";
+import jest from "../../assets/images/jest.png";
+import Redux from "../../assets/images/Redux.png";
+import jwt from "../../assets/images/jwt.png";
+import bcrypt from "../../assets/images/bcrypt-logo.jpg";
 
 const Techs = () => {
   const logos = [
     html5,
     javaScripts,
     react,
+    Redux,
     styledcomponents,
+    jest,
     nodeJs,
+    jwt,
+    bcrypt,
     expressJS,
     mongoose,
     mongoDB,
@@ -45,7 +53,7 @@ const TechsContainer = styled.div`
   ${flexbox()};
   margin: 50px;
   width: 90%;
-  height: 160px;
+  height: 300px;
   background: white;
   border: 6px solid lightsteelblue;
   box-shadow: 6px 6px slategray;

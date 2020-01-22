@@ -43,7 +43,7 @@ const Credits = () => {
     name: "Yarden Shalom",
     gitHub: "https://github.com/JordanSh/Deadline",
     linkedin: "https://www.linkedin.com/in/yarden-shalom-a85a70197/",
-    email: "yardeninho@gmail.com",
+    email: "yarden.shalom9@gmail.com",
     phone: "054-9100290"
   };
 
